@@ -1,4 +1,6 @@
+"use client"
 import Image from "next/image";
+import FormContact from "./FormContact";
 
 
 
@@ -6,6 +8,7 @@ import Image from "next/image";
 const ContactUs= () => {
   
   return (
+    <>
     <section className="bg-white dark:bg-gray-900 justify-center ">
   <div className="container px-6 py-12 w-[1060px] mx-auto">
     <div>
@@ -25,7 +28,7 @@ const ContactUs= () => {
         </span>
         <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Email</h2>
         <p className="mt-2 text-gray-500 dark:text-gray-400">Our friendly team is here to help.</p>
-        <p className="mt-2 text-blue-500 dark:text-blue-400">hello@merakiui.com</p>
+        <p className="mt-2 text-blue-500 dark:text-blue-400">unifi@mail.com</p>
       </div>
 
       <div>
@@ -52,7 +55,7 @@ const ContactUs= () => {
         </span>
         <h2 className="mt-4 text-lg font-medium text-gray-800 dark:text-white">Office</h2>
         <p className="mt-2 text-gray-500 dark:text-gray-400">Come say hello at our office HQ.</p>
-        <p className="mt-2 text-blue-500 dark:text-blue-400">100 Smith Street Collingwood VIC 3066 AU</p>
+        <p className="mt-2 text-blue-500 dark:text-blue-400">685 Third Avenue, 27th Floor, New York, New York 10017.</p>
       </div>
 
       <div>
@@ -80,6 +83,9 @@ const ContactUs= () => {
   </div>
 </section>
 
+
+<FormContact/>
+</>
   
   );
 };

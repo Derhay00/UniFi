@@ -33,7 +33,7 @@ const Footer = () => {
               <FooterColumn title={FOOTER_CONTACT_INFO.title} key="contact-info">
                 {FOOTER_CONTACT_INFO.links.map((link, linkIndex) => (
                   <Link
-                    href="/"
+                    href="/contact-us"
                     key={`${link.label}-${linkIndex}`}
                     className="flex gap-4 md:flex-col lg:flex-row"
                   >

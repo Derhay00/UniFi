@@ -66,12 +66,12 @@ export const NAV_LINKS = [
     },
     {
       title: 'Training',
-      semititle: ['Cours', 'Calender', 'Trainers' , 'Become a Trainer'],
+      semititle: ['Cours', 'Calender', 'Trainers' ],
       links: [
         "https://www.ui.com/training/",
         "https://www.ui.com/training/calendar/",
         "https://www.ui.com/training/partners/",
-        "https://www.ui.com/training/become-trainer/"
+       
       ]
     },
   ];
@@ -79,19 +79,20 @@ export const NAV_LINKS = [
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact Us',
     links: [
-      { label: 'Admin Officer', value: '123-456-7890' },
+      { label: 'Admin Officer', value: '+1 (555) 000-0000' },
       { label: 'Email Officer', value: 'unifi@mail.com' },
+      { label: 'Office', value: '685 Third Avenue, 27th Floor, New York 10017'},
     ],
   };
   
   export const SOCIALS = {
     title: 'Social',
     icons: [
-      { href: 'https://www.facebook.com', icon: '/facebook.svg' },
-      { href: 'https://www.instagram.com', icon: '/instagram.svg' },
-      { href: 'https://www.twitter.com', icon: '/twitter.svg' },
-      { href: 'https://www.youtube.com', icon: '/youtube.svg' },
-      { href: 'https://www.wordpress.com', icon: '/wordpress.svg' },
+      { href: 'https://www.facebook.com/UIeverywhere/?locale=fr_FR', icon: '/facebook.svg' },
+      { href: 'https://www.instagram.com/ubiquiti/?hl=fr', icon: '/instagram.svg' },
+      { href: 'https://twitter.com/Ubiquiti?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor', icon: '/twitter.svg' },
+      { href: 'https://www.youtube.com/@UbiquitiInc', icon: '/youtube.svg' },
+      
     ],
   };
   
