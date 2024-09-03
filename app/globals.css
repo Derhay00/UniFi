@@ -174,3 +174,13 @@ body {
 .bg-bg-flagships {
   background-image: url('/flagships.png');
 }
+
+video::-webkit-media-controls {
+  display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+  display: none !important;
+}
+video::-webkit-media-controls-play-button {
+  display: none !important;
+}

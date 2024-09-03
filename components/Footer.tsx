@@ -49,16 +49,17 @@ const Footer = () => {
             </div>
 
             <div className="flex flex-col gap-5">
-              <FooterColumn title={SOCIALS.title} key="socials">
-                <ul className="regular-14 flex gap-4 text-gray-30">
-                  {SOCIALS.links.map((link, socialIndex) => (
-                    <Link href="/" key={`${socialIndex}-${link}`}>
-                      <Image src={link} alt="logo" width={24} height={24} />
-                    </Link>
-                  ))}
-                </ul>
-              </FooterColumn>
-            </div>
+  <FooterColumn title={SOCIALS.title} key="socials">
+    <ul className="regular-14 flex gap-4 text-gray-30">
+      {SOCIALS.icons.map((social, socialIndex) => (
+        <Link href={social.href} key={`${socialIndex}-${social.icon}`} target="_blank" rel="noopener noreferrer">
+          <Image src={social.icon} alt={`${social.href} logo`} width={24} height={24} />
+        </Link>
+      ))}
+    </ul>
+  </FooterColumn>
+</div>
+
           </div>
         </div>
 

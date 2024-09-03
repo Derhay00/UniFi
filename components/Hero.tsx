@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Button from './Button'
+import Link from 'next/link'
 
 const Hero = () => {
   return (
@@ -49,13 +50,17 @@ const Hero = () => {
             variant="btn_blue"
             link='/products' 
           />
-          <Button 
-            type="button" 
-            title="How we work?" 
-            icon="/play.svg"
-            variant="btn_gray_text" 
-            link='/'
-          />
+          
+  <Button 
+    type="button" 
+    title="How we work?" 
+    icon="/play.svg"
+    variant="btn_gray_text" 
+    link="https://www.youtube.com/watch?v=s30cVtM8Oss"
+  />
+
+
+          
         </div>
       </div>
 

@@ -13,7 +13,7 @@ const MainWelcome = () => {
       <div className="flex flex-col md:flex-row md:justify-center  max-w-[1020px] mx-auto pb-24"> 
         
         <div className='rounded-lg overflow-hidden'> 
-          <video autoPlay muted preload="none" loop className="w-full h-full object-cover">
+          <video autoPlay muted preload="none" loop playsInline className="w-full h-full object-cover">
                 <source src="/hero-video1.mp4" type="video/mp4" />
       </video>
       </div>

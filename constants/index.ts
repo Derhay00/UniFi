@@ -1,10 +1,11 @@
 // NAVIGATION
 export const NAV_LINKS = [
     { href: '/', key: 'home', label: 'Home' },
-    { href: '/', key: 'how_hilink_work', label: 'How Hilink Work?' },
-    { href: '/products', key: 'products', label: 'Products' },
-    { href: '/', key: 'pricing ', label: 'Pricing ' },
-    { href: 'contact-us', key: 'contact_us', label: 'Contact Us' },
+    { href: '/products/access-point', key: 'Access Pointe', label: 'Access Pointe' },
+    { href: '/products/switching', key: 'Switch', label: 'Switch' },
+    { href: '/products/camera', key: 'Camera ', label: 'Camera ' },
+    { href: '/products', key: 'Products ', label: 'Products ' },
+    { href: '/contact-us', key: 'contact_us', label: 'Contact Us' },
   ];
   
   // CAMP SECTION
@@ -85,12 +86,12 @@ export const NAV_LINKS = [
   
   export const SOCIALS = {
     title: 'Social',
-    links: [
-      '/facebook.svg',
-      '/instagram.svg',
-      '/twitter.svg',
-      '/youtube.svg',
-      '/wordpress.svg',
+    icons: [
+      { href: 'https://www.facebook.com', icon: '/facebook.svg' },
+      { href: 'https://www.instagram.com', icon: '/instagram.svg' },
+      { href: 'https://www.twitter.com', icon: '/twitter.svg' },
+      { href: 'https://www.youtube.com', icon: '/youtube.svg' },
+      { href: 'https://www.wordpress.com', icon: '/wordpress.svg' },
     ],
   };
   
