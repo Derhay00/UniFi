@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const TabsCamera = () => {
   return (
-    <Tabs defaultValue="product" className=" w-full flex flex-col items-center">
+    <Tabs defaultValue="technical_specification" className=" w-full flex flex-col items-center">
       <TabsList className='gap-2 pb-44 sm:pb-12  flex flex-wrap justify-center'>
         <TabsTrigger 
           value="product" 
