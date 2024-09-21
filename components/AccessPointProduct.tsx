@@ -103,7 +103,7 @@ const AccessPointProduct = () => {
           </div>
           
           <div className="flex justify-end mt-4">
-            <Link href="https://store.ui.com/us/en/checkout">
+            <Link href="/products/access-point/checkout-ap">
               <button className="bg-blue-600 hover:bg-blue-700 text-white py-2 px-6 rounded-md transition duration-200 ease-in-out">
                 Add to Cart
               </button>

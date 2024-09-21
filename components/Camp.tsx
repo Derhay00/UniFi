@@ -54,24 +54,24 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-switches"
-          title="Putuk Truno Camp"
+          title="Switching"
           iconeTitle="/switch.svg"
-          subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          subtitle="Pro Max 48 PoE"
+          peopleJoined="2000+ Joined"
         />
         <CampSite 
           backgroundImage="bg-bg-camera"
-          title="Mountain View Camp"
+          title="Camera-AI"
           iconeTitle="/camera.svg"
-          subtitle="Somewhere in the Wilderness"
-          peopleJoined="50+ Joined"
+          subtitle="AI Pro"
+          peopleJoined="980+ Joined"
         />
          <CampSite 
           backgroundImage="bg-bg-flagships"
-          title="Putuk Truno Camp"
+          title="Access Point"
           iconeTitle="/flagship.svg"
-          subtitle="Prigen, Pasuruan"
-          peopleJoined="50+ Joined"
+          subtitle="U7 Pro Max"
+          peopleJoined="5900+ Joined"
         />
       </div>
 
